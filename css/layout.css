@@ -277,9 +277,9 @@ ul#nav li.active a { color: #11ABB0; }
 }
 
 #services a, #services a:visited  { color: #C4C4C4; }
-#services a:hover, #services a:focus { color: #11ABB0; }
+#services a:hover, #services a:focus { color: #084678; }
 
-#services .section-head h2 { color: #11ABB0; }
+#services .section-head h2 { color: #084678; }
 #services .section-head p.desc,
 #services .section-head .intro { color: #57606B; }
 
@@ -507,7 +507,7 @@ ul#nav li.active a { color: #11ABB0; }
    color: #A3A3A3;
 }
 #about .section-head h2,
-#about h4, #about h5 { color: #0f9095; }
+#about h4, #about h5 { color: #084678; }
 #about .section-head p.desc { color: #999999; }
 #about .section-head .intro { color: #A3A3A3; }
 #about h3 {
@@ -552,7 +552,7 @@ ul#nav li.active a { color: #11ABB0; }
    margin-right: 15px;
 }
 #about .team-wrap .member-social li a { color: #8C8C8C; }
-#about .team-wrap .member-social li a:hover { color: #0f9095; }
+#about .team-wrap .member-social li a:hover { color: #084678; }
 
 
 /* Testimonials
@@ -658,10 +658,10 @@ ul#nav li.active a { color: #11ABB0; }
 }
 
 #contact a, #contact a:visited  { color: #C4C4C4; }
-#contact a:hover, #contact a:focus { color: #11ABB0; }
+#contact a:hover, #contact a:focus { color: #084678; }
 
 #contact .section-head { margin-bottom: 42px; }
-#contact .section-head h2 { color: #11ABB0; }
+#contact .section-head h2 { color: #084678; }
 #contact .section-head p.desc,
 #contact .intro { color: #57606B; }
 #contact p {  }
@@ -694,14 +694,14 @@ ul#nav li.active a { color: #11ABB0; }
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #084678;
 }
 #contact button.submit {
 	font: 18px/30px montserrat-bold, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-	background: #11ABB0;
+	background: #084678;
    padding: 18px 30px;
 	border: none;
    cursor: pointer;
@@ -720,7 +720,7 @@ ul#nav li.active a { color: #11ABB0; }
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #084678;
 	font-size: 13px;
 }
 
@@ -732,7 +732,7 @@ ul#nav li.active a { color: #11ABB0; }
    width: 88%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #084678; }
 
 #message-warning i,
 #message-success i {
@@ -750,7 +750,7 @@ ul#nav li.active a { color: #11ABB0; }
 #contact aside h3 {
    font: 21px/30px montserrat-bold, sans-serif;
    margin-bottom: 18px;
-   color: #11ABB0;
+   color: #084678;
 }
 
 
