@@ -85,8 +85,8 @@ properly.
 header {
    height: 70px; /* Adjust the height as needed */
    width: 100%;
-   background-color: #232629; /* Set the background color */
-   color: #ffffff; /* Set the text color */
+   background-color: #92b0caa8; /* Set the background color */
+   color: #1b3267; /* Set the text color */
    z-index: 99999;
    position: fixed;
    top: 0;
@@ -170,7 +170,7 @@ ul#nav li {
    display: inline-block;
 }
 ul#nav > li.active a {
-   background: #11ABB0;
+   background: #084678;
    color: #fff !important;
 }
 
@@ -192,7 +192,7 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li:hover > a,
-ul#nav li.active a { color: #11ABB0; }
+ul#nav li.active a { color: #084678; }
 
 
 
@@ -332,7 +332,7 @@ ul#nav li.active a { color: #11ABB0; }
    padding-top: 156px;
    padding-bottom: 120px;
 }
-#portfolio .section-head h2 { color: #0f9095; }
+#portfolio .section-head h2 { color: #084678; }
 #portfolio .section-head p.desc { color: #999999; }
 #portfolio .section-head .intro { color: #A3A3A3; }
 
@@ -366,7 +366,7 @@ ul#nav li.active a { color: #11ABB0; }
 }
 
 /* on hover */
-.portfolio-item:hover .item-wrap { background-color: #0f9095; }
+.portfolio-item:hover .item-wrap { background-color: #084678; }
 .portfolio-item:hover h5 a { color: #fff !important; }
 
 
@@ -432,7 +432,7 @@ ul#nav li.active a { color: #11ABB0; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.reveal-modal a:hover {	color: #00CCCC; }
+.reveal-modal a:hover {	color: #084678; }
 .reveal-modal a.close-reveal-modal { margin-left: 28px; }
 
 
@@ -700,14 +700,14 @@ ul#nav li.active a { color: #11ABB0; }
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-	color: #eee;
+	color: #eeeeee;
 	background: #3F464B;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
-   font-size: 15px;
-   line-height: 24px;
-   width: 66%;
+   font-size: 5px;
+   line-height: 3px;
+   width: 56%;
 }
 #contact input:focus,
 #contact textarea:focus,
@@ -721,7 +721,7 @@ ul#nav li.active a { color: #11ABB0; }
 	letter-spacing: 3px;
 	color:#fff;
 	background: #084678;
-   padding: 18px 30px;
+   padding: 8px 20px;
 	border: none;
    cursor: pointer;
    height: auto;
@@ -769,7 +769,7 @@ ul#nav li.active a { color: #11ABB0; }
 #contact aside h3 {
    font: 21px/30px montserrat-bold, sans-serif;
    margin-bottom: 18px;
-   color: #11ABB0;
+   color: #084678;
 }
 
 
@@ -1319,7 +1319,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #11ABB0;
+		background-color: #084678;
 		position: relative;
       border: none;
       float: right;
@@ -1359,7 +1359,7 @@ footer .social-links li:first-child { margin-left: 0; }
       text-align: left;
    }
    .mobile #nav-wrap ul#nav > li.active a {
-      color: #11ABB0 !important;
+      color: #084678 !important;
       background: none;
    }
 
