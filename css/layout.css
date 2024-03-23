@@ -510,10 +510,10 @@ ul#nav li.active a { color: #084678; }
    padding: 18px 20px;
 	color: #eeeeee;
 	background: #3F464B;
-	margin-bottom: 42px;
+	margin-bottom: 32px;
 	border: 0;
 	outline: none;
-   font-size: 5px;
+   font-size: 15px;
    line-height: 3px;
    width: 56%;
 }
