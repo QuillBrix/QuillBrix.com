@@ -203,7 +203,7 @@ ul#nav li.active a { color: #084678; }
 /* ================================================================== */
 
 #intro {
-   background: #111 url(../images/intro-bg.jpg) no-repeat center;
+   background: #f5f5f5 url(../images/patterns/grey.png); ;
    overflow: hidden;
 }
 
@@ -213,14 +213,14 @@ ul#nav li.active a { color: #084678; }
    overflow: hidden;
 }
 .slider-text {
-	color: #737E8C;
+	color: #3d3d3d;
    text-align: center;
    width: 85%;
    margin: 156px auto 66px auto;
 }
 .slider-text h2 {
    font: 56px/78px montserrat-regular, Sans-serif;
-   color: #fff;
+   color: #111;
    text-shadow: 0px 1px 5px rgba(50, 50, 50, .5);
    padding: 0;
    margin: 0;
@@ -261,7 +261,7 @@ ul#nav li.active a { color: #084678; }
 	transition: all 0.2s ease-in-out;
 }
 
-.flex-direction-nav a:hover { background-color: #11ABB0; }
+.flex-direction-nav a:hover { background-color: #084678; }
 
 .flex-direction-nav .flex-next {
 	right: 0px;
