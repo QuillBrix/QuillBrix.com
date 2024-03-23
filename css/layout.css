@@ -83,7 +83,7 @@ properly.
 /* ================================================================== */
 /* Header */
 header {
-   height: 70px; /* Adjust the height as needed */
+   height: 65px; /* Adjust the height as needed */
    width: 100%;
    background-color: #92b0caa8; /* Set the background color */
    color: #1b3267; /* Set the text color */
@@ -148,7 +148,7 @@ header.static {
 /* nav-wrap */
 #nav-wrap {
 	position: relative;
-   font: 13px opensans-regular, sans-serif;
+   font: 16px opensans-regular, sans-serif;
    float: left;
 }
 
@@ -156,7 +156,7 @@ header.static {
 #nav-wrap > a { display: none; }
 
 ul#nav {
-   min-height: 54px;
+   min-height: 4px;
    width: auto;
 
    /* left align the menu */
@@ -177,7 +177,7 @@ ul#nav > li.active a {
 /* Links */
 ul#nav li a {
    display: block;
-   padding: 0 14px;
+   padding:0 40px;
    line-height: 54px;
 	text-decoration: none;
    text-align: left;
