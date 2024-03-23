@@ -81,41 +81,60 @@ properly.
 /* b. Header Styles
 
 /* ================================================================== */
-
+/* Header */
 header {
-   height: 54px;
+   height: 70px; /* Adjust the height as needed */
    width: 100%;
+   background-color: #232629; /* Set the background color */
+   color: #ffffff; /* Set the text color */
    z-index: 99999;
-   background: url(../images/k-opacity-70.png);
-
    position: fixed;
    top: 0;
    left: 0;
 }
+
+/* Logo */
+header .logo {
+   height: 100%; /* Set the height to fill the header */
+   width: auto; /* Allow the width to adjust automatically */
+   float: left;
+   padding: 10px; /* Add padding for spacing */
+}
+
+/* Logo Link */
+header .logo a {
+   display: block;
+   line-height: 50px; /* Adjust the line height for vertical centering */
+}
+
+/* Navigation */
+header nav {
+   float: right;
+   margin-top: 10px; /* Adjust the margin as needed */
+}
+
+/* Navigation Links */
+header nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+header nav ul li {
+   display: inline-block;
+   margin-left: 20px; /* Adjust the spacing between links */
+}
+
+header nav ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+/* Sticky Header */
 header.static {
-   background: #232629;
    position: static;
 }
 
-/* header logo */
-header .logo {
-   position: relative;
-   height: 54px;
-   width: 150px;
-   float: left;
-}
-header .logo a {
-   display: block;
-   padding: 0;
-   margin: 0;
-   height: 18px;
-   width: 91px;
-   line-height: 18px;
-
-   position: absolute;
-   left: 12px;
-   top: 16px;
-}
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -750,7 +769,7 @@ ul#nav li.active a { color: #11ABB0; }
 #contact aside h3 {
    font: 21px/30px montserrat-bold, sans-serif;
    margin-bottom: 18px;
-   color: #084678;
+   color: #11ABB0;
 }
 
 
