@@ -85,7 +85,7 @@ properly.
 header {
    height: 65px; /* Adjust the height as needed */
    width: 100%;
-   background-color: #92b0caa8; /* Set the background color */
+   background-color: #9fa3b1; /*Set the background color CHECK HERE */
    color: #1b3267; /* Set the text color */
    z-index: 99999;
    position: fixed;
@@ -515,7 +515,7 @@ ul#nav li.active a { color: #084678; }
 	outline: none;
    font-size: 15px;
    line-height: 3px;
-   width: 56%;
+   width: 6%;
 }
 #contact input:focus,
 #contact textarea:focus,
