@@ -518,7 +518,7 @@ ul#nav li.active a { color: #084678; }
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-	color: #eeeeee;
+	color: #111;
 	background: #fff;
 	margin-bottom: 32px;
 	border: 0;
@@ -530,7 +530,7 @@ ul#nav li.active a { color: #084678; }
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
-	color: #fff;
+	color: #111;
 	background-color: #b1a99f;
 }
 #contact button.submit {
