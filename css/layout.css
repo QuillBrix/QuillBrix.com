@@ -85,7 +85,7 @@ properly.
 header {
    height: 65px; /* Adjust the height as needed */
    width: 100%;
-   background-color: #9fa3b1; /*Set the background color CHECK HERE */
+   background-color: #b1a99f; /*Set the background color CHECK HERE */
    color: #1b3267; /* Set the text color */
    z-index: 99999;
    position: fixed;
@@ -491,7 +491,7 @@ ul#nav li.active a { color: #084678; }
    background-color: #084678;
    padding-top: 108px;
    padding-bottom: 120px;
-   color: #707B89;
+   color: #fff;
 }
 
 #contact a, #contact a:visited  { color: #C4C4C4; }
@@ -500,7 +500,7 @@ ul#nav li.active a { color: #084678; }
 #contact .section-head { margin-bottom: 42px; }
 #contact .section-head h2 { color: #F5F5F5; }
 #contact .section-head p.desc,
-#contact .intro { color: #57606B; }
+#contact .intro { color: #fff; }
 #contact p {  }
 
 /* contact form */
@@ -519,7 +519,7 @@ ul#nav li.active a { color: #084678; }
 #contact select {
    padding: 18px 20px;
 	color: #eeeeee;
-	background: #3F464B;
+	background: #fff;
 	margin-bottom: 32px;
 	border: 0;
 	outline: none;
@@ -531,14 +531,14 @@ ul#nav li.active a { color: #084678; }
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #3F464B;
+	background-color: #b1a99f;
 }
 #contact button.submit {
 	font: 18px/30px montserrat-bold, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-	background: #084678;
+	background: #084678; /*submit button */
    padding: 8px 20px;
 	border: none;
    cursor: pointer;
@@ -553,17 +553,17 @@ ul#nav li.active a { color: #084678; }
    margin-left: 22%;
 }
 #contact button.submit:hover {
-	color: #25292D;
-	background: #fff;
+	color: #111;  /*submit button */
+	background: #b1a99f;   /*submit button */
 }
 #contact span.required {
-	color: #084678;
+	color: #fff;
 	font-size: 13px;
 }
 
 #message-warning, #message-success {
    display: none;
-	background: #151719;
+	background: #191715;
 	padding: 24px 24px;
 	margin-bottom: 36px;
    width: 88%;
@@ -587,7 +587,7 @@ ul#nav li.active a { color: #084678; }
 #contact aside h3 {
    font: 21px/30px montserrat-bold, sans-serif;
    margin-bottom: 18px;
-   color: #084678;
+   color: #fff;
 }
 
 
@@ -602,7 +602,8 @@ ul#nav li.active a { color: #084678; }
    padding-top: 120px;
    padding-bottom: 90px;
 }
-.post .entry-header {
+.post .entry-
+ {
    position: relative;
    width: 100%;
 }
@@ -617,7 +618,7 @@ ul#nav li.active a { color: #084678; }
    float: left;
    text-align: right;
    width: 16.66667%;
-   color: #bec0c1;
+   color: #c1bfbe;
    padding-right: 36px;
    font: 14px/24px opensans-regular, sans-serif;
    margin: 6px 0 6px 0;
@@ -981,10 +982,11 @@ ol.commentlist {
 footer {
    margin-top: 30px;
    margin-bottom: 30px;
-   color: #303030;
+   color: #fff
+   ;
    font-size: 14px;
 }
-footer a, footer a:visited { color: #0B686B; }
+footer a, footer a:visited { color: #084678; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
@@ -1185,11 +1187,11 @@ footer .social-links li:first-child { margin-left: 0; }
 	.mobile #nav-wrap:target > ul#nav	{
 	   display: block;
       padding: 12px 25px 24px 25px;
-      background: #4c4e5a;
+      background: #5a504cde;
       margin: 0;
       clear: both;
    }
-   .mobile #nav-wrap ul#nav li { border-bottom: 1px dotted #595B6A; }
+   .mobile #nav-wrap ul#nav li { border-bottom: 1px dotted #6a6259; }
    .mobile #nav-wrap ul#nav li a {
       margin: 0;
       padding: 0;
