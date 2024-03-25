@@ -488,7 +488,7 @@ ul#nav li.active a { color: #084678; }
 /* ================================================================== */
 
 #contact {
-   background-color: #25292D;
+   background-color: #084678;
    padding-top: 108px;
    padding-bottom: 120px;
    color: #707B89;
@@ -498,7 +498,7 @@ ul#nav li.active a { color: #084678; }
 #contact a:hover, #contact a:focus { color: #084678; }
 
 #contact .section-head { margin-bottom: 42px; }
-#contact .section-head h2 { color: #084678; }
+#contact .section-head h2 { color: #F5F5F5; }
 #contact .section-head p.desc,
 #contact .intro { color: #57606B; }
 #contact p {  }
@@ -531,7 +531,7 @@ ul#nav li.active a { color: #084678; }
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #084678;
+	background-color: #3F464B;
 }
 #contact button.submit {
 	font: 18px/30px montserrat-bold, sans-serif;
