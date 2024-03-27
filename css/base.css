@@ -1,9 +1,5 @@
 /*
 =====================================================================
-*   Kreative v1.0 Base Stylesheet
-*   url: styleshout.com
-*   09-26-2013
-=====================================================================
 
 TOC:
 a. Webfonts and Icon fonts
@@ -534,8 +530,8 @@ select {
 	max-width: 100%;
    font-size: 15px;
    line-height: 24px;
-	color: #738182;
-	background: #CFD4D8;
+	color: #827673;
+	background: #d8d2cf;
 }
 
 /* select { padding: 0;
