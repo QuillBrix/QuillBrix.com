@@ -300,7 +300,7 @@ ul#nav li.active a { color: #084678; }
 
 #services {
    background: #084678  url(../images/patterns/servicebg.png);
-   padding-top: 50px;
+   padding-top: 80px;
    padding-bottom: 50px;
    color: #eff6f6;
 }
@@ -339,7 +339,7 @@ ul#nav li.active a { color: #084678; }
 
 #about {
    background: #fff url(../images/patterns/grey.png);
-   padding-top: 50px;
+   padding-top: 80px;
    padding-bottom: 50px;
    color: #3d3d3d;
 }
@@ -489,7 +489,7 @@ ul#nav li.active a { color: #084678; }
 
 #contact {
    background-color: #084678;
-   padding-top: 108px;
+   padding-top: 80px;
    padding-bottom: 120px;
    color: #fff;
 }
