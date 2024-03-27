@@ -1,4 +1,4 @@
-/*===================================================================
+/*================================================================
    TOC:
    a. Common Styles
    b. Header Styles
@@ -73,7 +73,7 @@ properly.
 header {
    height: 65px; /* Adjust the height as needed */
    width: 100%;
-   background-color: #b1a09f; /*Set the background color CHECK HERE */
+   background-color: #b1a99f; /*Set the background color CHECK HERE */
    color: #1b3267; /* Set the text color */
    z-index: 99999;
    position: fixed;
