@@ -678,13 +678,14 @@ footer .social-links li:first-child { margin-left: 0; }
    .mobile #nav-wrap ul#nav > li.active a {
       color: #084678 !important;
       background: none;
+      font-weight: 800;
    }
 
    /* display menu panels */
 	.mobile #nav-wrap:target > ul#nav	{
 	   display: block;
       padding: 12px 25px 24px 25px;
-      background: #5a504cde;
+      background: #897770de;
       margin: 0;
       clear: both;
    }
