@@ -415,8 +415,8 @@ ul#nav li.active a { color: #084678; }
 	font: 18px/30px montserrat-bold, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color:#fff;
-	background: #084678; /*submit button */
+	color:#111;
+	background: #b1a99f; /*submit button HERE YOU HAVE TO EDIT*/
    padding: 8px 20px;
 	border: none;
    cursor: pointer;
@@ -431,7 +431,7 @@ ul#nav li.active a { color: #084678; }
    margin-left: 22%;
 }
 #contact button.submit:hover {
-	color: #111;  /*submit button */
+	color: #fff;  /*submit button */
 	background: #b1a99f;   /*submit button */
 }
 #contact span.required {
